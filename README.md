@@ -4,8 +4,6 @@
 * Express
 * Sequelize
 * Boilerplate
-* clear folder structure
-* minified CSS and JS build files
 
 ## Structure of App
 ```
