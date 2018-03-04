@@ -10,8 +10,7 @@
     "migration:create": "sequelize --config config/sequelize.js migration:create",
     "test": "rm -f test.db && NODE_ENV=test npm run migration && NODE_ENV=test mocha **/**.test.js"
   },
-  "author": "Craig Russell <craig.russell@cloudcall.com>",
-  "license": "ISC",
+  "license": "MID",
   "dependencies": {
     "aargs": "^1.0.6",
     "body-parser": "^1.15.2",
