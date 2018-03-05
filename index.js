@@ -4,7 +4,7 @@ var app    = require('./lib/app')
 
 // Arguments from CLI
 var PORT = args.port || 1337
-var HOST = args.host || '127.0.0.1'
+var HOST = args.host || '0.0.0.0'
 
 // Start server
 app.listen(PORT, HOST, () => {
