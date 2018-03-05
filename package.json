@@ -1,5 +1,5 @@
 {
-  "name": "recorder be",
+  "name": "recorderbe",
   "version": "0.0.1",
   "description": "recorder be",
   "main": "index.js",
@@ -10,13 +10,17 @@
     "migration:create": "sequelize --config config/sequelize.js migration:create",
     "test": "rm -f test.db && NODE_ENV=test npm run migration && NODE_ENV=test mocha **/**.test.js"
   },
-  "license": "MID",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fix2015/streambe.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "aargs": "^1.0.6",
     "body-parser": "^1.15.2",
     "bunyan": "^1.8.4",
     "express": "^4.14.0",
-    "sequelize": "^3.24.6"
+    "sequelize": "^3.32.1"
   },
   "devDependencies": {
     "faker": "^3.1.0",
